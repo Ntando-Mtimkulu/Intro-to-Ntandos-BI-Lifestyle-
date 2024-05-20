@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Ntando's BI Lifestyle</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <h1 class="dazzling">Ntando's BI Lifestyle</h1>
+  <p class="subtitle">Exploring the intersection of Business Intelligence and everyday life</p>
+ </header>
+ <main>
+  <section class="about">
+   <h2>Welcome to my journey</h2>
+   <p>I'm Ntando, a BI enthusiast passionate about sharing my experiences and insights</p>
+   <button class="cta">Follow along</button>
+  </section>
+  <section class="featured">
+   <h2>Featured content</h2>
+   <ul>
+    <li><a href="#">Post 1: BI for beginners</a></li>
+    <li><a href="#">Post 2: My favorite BI tools</a></li>
+    <li><a href="#">Post 3: How BI changed my life</a></li>
+   </ul>
+  </section>
+ </main>
+ <footer>
+  <p>&copy; 2023 Ntando's BI Lifestyle</p>
+ </footer>
+</body>
+</html>
