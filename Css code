@@ -1,0 +1,36 @@
+ background-color: #00698f;
+ color: #ffffff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.featured {
+ background-color: #f7f7f7;
+ padding: 20px;
+ border: 1px solid #cccccc;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.featured li {
+ margin-bottom: 10px;
+}
+
+.featured a {
+ text-decoration: none;
+ color: #00698f;
+}
+
+footer {
+ background-color: #00698f;
+ padding: 10px;
+ text-align: center;
+ color: #ffffff;
+}
