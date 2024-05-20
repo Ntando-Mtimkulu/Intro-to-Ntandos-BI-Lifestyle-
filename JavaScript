@@ -1,0 +1,22 @@
+
+const changeColorButton = document.getElementById('change-color');
+
+changeColorButton.addEventListener('click', () => {
+	const colors = ['#FF69B4', '#33CC33', '#00698F', '#FFC107', '#4CAF50'];
+	const currentColor = document.body.style.backgroundColor;
+	const nextColor = getNextColor(colors, currentColor);
+	document.body.style.backgroundColor = nextColor;
+});
+
+function getNextColor(colors, currentColor) {
+	const currentIndex = colors.indexOf(currentColor);
+	if (currentIndex === -1) {
+		return colors[0];
+	} else {
+		return colors[(currentIndex + 1) % colors.length];
+	}
+}
+
+function getRandomColor() {
+	return '#' + Math.floor(Math.random() * 16777215).toString(16);
+}
